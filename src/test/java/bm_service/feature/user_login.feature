@@ -1,7 +1,7 @@
 Feature: Tests for User login
 
     Background: Define URL
-        Given url 'http://localhost:5100/api/users/authenticate'
+        Given url usersUrl + 'authenticate'
 
     Scenario: Login success
         And request { "email": "er.harshalmistry@gmail.com", "password": "password"}

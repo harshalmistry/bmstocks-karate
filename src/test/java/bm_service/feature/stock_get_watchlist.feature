@@ -1,7 +1,7 @@
 Feature: Tests for Stock get watchlist stocks
 
     Background: Define URL
-        Given url 'http://localhost:5000/api/stocks/'
+        Given url stocksUrl
 
     Scenario: Add stock to watchlist success
         And request { "userId": 99999, "stockName": "IDEA.NS" }

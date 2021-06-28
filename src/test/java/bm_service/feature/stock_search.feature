@@ -1,7 +1,7 @@
 Feature: Tests for Stock search
 
     Background: Define URL
-        Given url 'http://localhost:5000/api/stocks/'
+        Given url stocksUrl
 
     Scenario: Search stock success
         Given path 'SBICARD.NS'

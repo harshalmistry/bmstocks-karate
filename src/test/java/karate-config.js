@@ -5,9 +5,9 @@ function fn() {
     env = 'dev';
   }
   var config = {
-    env: env,
-    myVarName: 'someValue'
-  }
+    stocksUrl: 'http://localhost:5000/api/stocks',
+    usersUrl: 'http://localhost:5100/api/users/',
+  };
   if (env == 'dev') {
     // customize
     // e.g. config.foo = 'bar';

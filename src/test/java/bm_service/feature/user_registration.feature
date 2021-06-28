@@ -1,7 +1,7 @@
 Feature: Tests for User registration
 
     Background: Define URL
-        Given url 'http://localhost:5100/api/users/register'
+        Given url usersUrl + 'register'
 
     @ignore
     #  (to check this scenario) Remove @ignore tag and update email to some random email, which is not registered 
